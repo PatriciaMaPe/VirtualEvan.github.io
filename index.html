@@ -22,6 +22,8 @@
 
   <!-- Theme CSS - Includes Bootstrap -->
   <link href="css/creative.min.css" rel="stylesheet">
+  <!-- Specific CSS -->
+  <link href="css/style.css" rel="stylesheet">
 
 </head>
 
@@ -43,7 +45,7 @@
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            <a class="nav-link js-scroll-trigger" href="#proyects">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -60,8 +62,8 @@
         <div class="align-items-center justify-content-center">
           <h1 class="text-white font-weight-light mb-2" style="margin-top:150px">I'm <span class="text-white font-weight-bold">Esteban Puentes</span></h1>
           <h1 class="text-white-75 font-weight-light mb-3">Software Engineer</h1>
-          <button type="button" class="btn btn-outline-primary" style="margin-right:5px;">LinkedIn</button>
-          <button type="button" class="btn btn-outline-primary" style="margin-right:5px;">GitHub</button>
+          <button type="button" class="btn btn-outline-primary">LinkedIn</button>
+          <button type="button" class="btn btn-outline-primary">GitHub</button>
           <button type="button" class="btn btn-outline-primary">Email</button>
         </div>
 
@@ -120,89 +122,74 @@
   </section>
 
   <!-- Portfolio Section -->
-  <section id="portfolio">
-    <div class="container-fluid p-0">
-      <div class="row no-gutters">
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
-    </div>
+  <section id="proyects" class="post-list">
+
+    <a href="https://github.com/VirtualEvan/iOS-Bootcamp" class="post">
+      <figure class="post-image">
+        <img src="img/portfolio/thumbnails/6.jpg" alt="">
+      </figure>
+      <span class="post-overlay">
+        <p>
+          <span class="post-name">IOS</span>
+        </p>
+      </span>
+    </a>
+
+    <a href="https://github.com/VirtualEvan/CDI_Concurrency" class="post">
+      <figure class="post-image">
+        <img src="img/portfolio/thumbnails/5.jpg" alt="">
+      </figure>
+      <span class="post-overlay">
+        <p>
+          <span class="post-name">Concurrency</span>
+        </p>
+      </span>
+    </a>
+
+    <a href="https://github.com/VirtualEvan/drawio" class="post">
+      <figure class="post-image">
+        <img src="img/portfolio/thumbnails/4.jpg" alt="">
+      </figure>
+      <span class="post-overlay">
+        <p>
+          <span class="post-name">Draw.io</span>
+        </p>
+      </span>
+    </a>
+
+    <a href="https://github.com/VirtualEvan/Screeps" class="post">
+      <figure class="post-image">
+        <img src="img/portfolio/thumbnails/3.jpg" alt="">
+      </figure>
+      <span class="post-overlay">
+        <p>
+          <span class="post-name">Screeps</span>
+        </p>
+      </span>
+    </a>
+
+    <a href="https://github.com/VirtualEvan/SSI_Cryptography" class="post">
+      <figure class="post-image">
+        <img src="img/portfolio/thumbnails/2.jpg" alt="">
+      </figure>
+      <span class="post-overlay">
+        <p>
+          <span class="post-name">Cryptography</span>
+        </p>
+      </span>
+    </a>
+
+    <a href="https://github.com/VirtualEvan/AAS_Swarm" class="post">
+      <figure class="post-image">
+        <img src="img/portfolio/thumbnails/1.jpg" alt="">
+      </figure>
+      <span class="post-overlay">
+        <p>
+          <span class="post-name">Swarn</span>
+        </p>
+      </span>
+    </a>
+
   </section>
 
   <!-- Call to Action Section -->
